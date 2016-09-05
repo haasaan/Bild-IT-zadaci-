@@ -1,0 +1,196 @@
+
+@import url(https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRmGxYhRTamxhv8KAqFEp8rE4wyIWoZtE6sMbLiT0hINhAKGYnhxA);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,700);
+
+html, body, h1, h2, h3, h4, h5, h6, p, 
+blockquote, pre, a, address, img, sub,
+sup, b, u, i, center, ol, ul, li, form, 
+label, legend, table, thead, tr, th, td,
+footer, header, menu, nav{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+html {
+	
+	position: relative;
+	min-height: 100%;
+}
+
+nav{
+	position: relative;
+	width: 100%;
+	height: 50px;
+	background-color: #33CCFF;
+	padding: 5px;
+
+}
+
+header{
+	position: relative;
+	width: 100%;
+	height: 500px; 
+	background-color: blue;
+	background-image: url("../img/movie-wallpaper-8.jpg");
+	background-size: cover;
+	border-bottom: 2px solid #33CCFF;
+}
+
+main{
+	float: left;
+	position: relative;
+	width: 100%;
+	height: auto;
+	padding: 50px 0 100px 0;
+	background-color: grey;
+}
+
+
+footer{
+	position: absolute;
+	width: 100%;
+	height: 50px;
+	background-color: #33CCFF;
+	left:0;
+	bottom: 0;
+	padding: 5px;
+
+
+}
+
+footer p{
+	font-family: 'Raleway', sans-serif; 
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 50px;
+	color: #fff;
+	text-align: center;
+}
+
+h1{
+	font-family: 'Raleway', sans-serif; 
+	font-size: 50px;
+	font-weight: 700;
+	line-height: 45px;
+	color: #fff;
+}
+
+h2{
+	font-family: 'Raleway', sans-serif; 
+	font-size: 35px;
+	font-weight: 700;
+	line-height: 40px;
+	color: #33CCFF;
+	margin-bottom: 2px;
+
+}
+
+h3{
+	font-family: 'Raleway', sans-serif; 
+	font-size: 25px;
+	font-weight: 700;
+	line-height: 50px;
+	color: #fff;
+}
+
+p{
+	font-family: 'Raleway', sans-serif; 
+	font-size: 20px;
+	line-height: 25px;
+	color: #fff;
+	text-align: center-left;
+}
+
+ul{
+	display: inline-block;
+	float: right;
+	height: 50px;
+
+}
+
+li{
+	display: inline-block;
+	width: auto;
+	font-family: 'Raleway', sans-serif; 
+	font-weight: 700;
+	font-size: 20px;
+	color: #fff;
+	text-align: center;
+	padding: 15px;
+}
+
+
+button{
+
+	height: 50px;
+	background-color: #33CCFF;
+	border: none;
+	font-family: 'Raleway', sans-serif; 
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 20px;
+	padding: 15px;
+	margin: 10px 0;
+	border-radius: 5px;
+
+
+}
+a{
+	color: #fff;
+	text-decoration: none;
+}
+
+button:hover{
+	background-color: rgba(0, 0, 0, 0);
+	border: 1px solid #fff;
+	border-radius: 5px;
+}
+
+img{
+	float: left;
+	width: 400px;
+	border-radius: 50%;
+	border: 2px solid #33CCFF;
+}
+
+.container{
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.contentBox{
+	padding-top: 100px;
+	width: 736px ;
+	margin-left: 50px; 
+	display: inline-block;
+	float: left;
+	height: 100px;
+
+}
+
+.headerText{
+	width:100%;
+	margin: 170px 0 170px 0;
+	display: inline-block;
+	overflow: hidden;
+}
+
+
+
+#brand{
+	display: inline-block;
+
+}
+
+#brand a{
+	display: inline-block;
+	text-decoration: none;
+	font-size: 35px;
+	line-height: 50px;
+	font-family: 'Lily Script One', cursive;
+	color: #fff;
+}
+
